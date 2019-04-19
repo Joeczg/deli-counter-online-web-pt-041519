@@ -5,7 +5,7 @@ def line(katz_deli)
     puts "The line is currently empty."
     
   else
-    katz_deli.each_with_index.map {|name,index| puts "The line is currently: #{index + 1}. #{name}"}
+    katz_deli.each_with_index.map {|name,index|"#{index + 1}. #{name}"}
   end
 end
 def take_a_number(katz_deli,name)
